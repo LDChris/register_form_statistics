@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>計算檢查人次</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<input type="file" id="fileInput" accept=".xlsx, .xls" multiple="multiple">
+<input class="styled" type="button" value="Process" onclick="javascript:handleFile();"/>
+<div id="excel_table"></div>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="xlsx.full.min.js"></script>
+<script src="people_counting.js"></script>
+</body>
+</html>
